@@ -1,0 +1,262 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
+
+body {      
+    font-family: 'Quicksand', sans-serif;
+     position: relative;
+  }
+
+/* utilities */
+.radius-top
+{
+    border-radius: 0 0 15% 15%;
+}
+.radius-mid
+{
+    border-radius: 15%;
+}
+.radius-bot
+{
+    border-radius: 15% 15% 0 0;
+}
+.bob-shadow
+{
+    box-shadow: 10px 5px 10px rgb(78, 78, 78);
+}
+.text-shadow-logo
+{
+    text-shadow: 5px 5px 10px rgb(86, 151, 212);
+}
+.text-shadow
+{
+    text-shadow: 2px 2px 5px rgb(86, 151, 212);
+}
+.slogan-shadow
+{
+    text-shadow: 4px 4px 10px rgb(189, 216, 241);
+}
+.bold{
+    font-weight: bold;
+}
+.text-underline
+{
+    text-decoration: underline;
+}
+
+.padding-100 {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.padding-80 {
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+.paddingZero {
+    padding: 0;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+.padding-20 {
+    padding: 20px;
+}
+
+.bg-dark {
+    background: #212529;
+}
+
+.bg-cloud {
+    background: rgb(236, 240, 241);
+}
+
+.text-cloud {
+    color: rgb(236, 240, 241);
+}
+
+.text-dark {
+    color: #212529;
+}
+
+.h-100 {
+    height: 100px;
+}
+
+.h-250 {
+    height: 250px;
+}
+
+.font-20
+{
+    font-size: 20px;
+}
+.font-25
+{
+    font-size: 25px;
+}
+.font-50
+{
+    font-size: 50px;
+}
+.font-60 {
+    font-size: 60px;
+}
+.font-70 {
+    font-size: 70px;
+}
+.font-80 {
+   font-size: 80px;
+}
+.padding-l
+{
+    padding-left: 3rem;
+}
+.padding-b
+{
+    padding-bottom: 3rem;
+}
+.margin-nav
+{
+    margin-left: 10rem;
+}
+.margin-l
+{
+    margin-left: 20rem;
+}
+.margin-r
+{
+    margin-right: 20rem;
+}
+.margin-b
+{
+    margin-bottom: 3rem;
+}
+.margin-t
+{
+    margin-top: 2rem;
+}
+.margin-card
+{
+    margin-bottom: 5rem;
+}
+/*////////// navbar //////////*/
+#navbar {
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.bg-clear {
+    background: transparent;
+}
+
+.nav-link
+{
+    font-size: 1.5rem;
+}
+
+nav ul li
+{
+ margin:0 1rem; 
+}
+
+.navbar-brand
+{
+    font-size: 1.5rem;
+}
+/*////////// header //////////*/
+.bg-1 {
+    background: url('img/horizon-intro.jpg') 20% 40%;
+    background-repeat: no-repeat;
+}
+
+.bg-2 {
+    background: url('img/horizon-who.jpg') 20% 40%;
+    background-repeat: no-repeat;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+}
+
+/*social media icons - CSS animation */
+section#reseaux-s a {
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+/*color*/
+
+.navbar-color
+{
+    background-color: rgba(255, 255, 255, 0.918);
+}
+
+
+/*lien*/
+a.gu {
+    background: url(img/social_media.png) 0px top;
+}
+
+a.fb {
+    background: url(img/social_media.png) -256px top;
+}
+
+a.tw {
+    background: url(img/social_media.png)  -512px top;
+}
+
+a.lin {
+    background: url(img/social_media.png)  -384px top;
+}
+
+a.ytube {
+    background: url(img/social_media.png) -640px top;
+}
+
+a.go {
+    background: url(img/social_media.png) -768px top;
+}
+
+section#reseaux-s li:hover a.gu {
+    background: url(img/social_media.png) 0px bottom;
+}
+
+section#reseaux-s li:hover a.fb {
+    background: url(img/social_media.png) -256px bottom;
+}
+
+section#reseaux-s li:hover a.tw {
+    background: url(img/social_media.png) -512px bottom;
+}
+
+section#reseaux-s li:hover a.lin {
+    background: url(img/social_media.png) -384px bottom;
+}
+
+section#reseaux-s li:hover a.ytube {
+    background: url(img/social_media.png) -640px bottom;
+}
+
+section#reseaux-s li:hover a.go {
+    background: url(img/social_media.png) -768px bottom;
+}
+
+/*remonter en haut*/
+
+.scroll_to_top { 
+    position: fixed; 
+    z-index: 1;
+    width: 50px; 
+    height: 50px; 
+    bottom: 50px; 
+    right: 30px; 
+  } 
+  .scroll_to_top img { 
+    width: 50px; 
+  }
