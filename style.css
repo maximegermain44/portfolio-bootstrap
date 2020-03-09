@@ -10,6 +10,10 @@ body {
 {
     border-radius: 0 0 15% 15%;
 }
+.tarif-min-height
+{
+    min-height: 300px;
+}
 .radius-mid
 {
     border-radius: 15%;
@@ -41,7 +45,9 @@ body {
 {
     text-decoration: underline;
 }
-
+.witdh-card{
+    width: 18rem;
+}
 .padding-100 {
     padding-top: 100px;
     padding-bottom: 70px;
